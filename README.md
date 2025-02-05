@@ -1,6 +1,16 @@
 # How Python Source Code is Converted into Executable Code
 
-Python follows a multi-step process to execute source code. Unlike compiled languages (such as C or Java), Python does not directly convert source code into machine code. Instead, Python **compiles source code into bytecode** and then **interprets it via the Python Virtual Machine (PVM).**
+## **Table of Contents**
+- [Step-by-Step Explanation of Python Execution](#step-by-step-explanation-of-python-execution)
+- [Step 1: Writing Python Source Code](#step-1-writing-python-source-code)
+- [Step 2: Saving the Code as a .py File](#step-2-saving-the-code-as-a-py-file)
+- [Step 3: Compilation into Bytecode (.pyc)](#step-3-compilation-into-bytecode-pyc)
+- [Step 4: Execution in the Python Virtual Machine (PVM)](#step-4-execution-in-the-python-virtual-machine-pvm)
+- [Step 5: Conversion to Machine Code](#step-5-conversion-to-machine-code)
+- [Step 6: Execution by the CPU](#step-6-execution-by-the-cpu)
+- [Diagram: Python Code Execution Process](#diagram-python-code-execution-process)
+- [Summary of Python Execution Workflow](#summary-of-python-execution-workflow)
+- [Key Takeaways](#key-takeaways)
 
 ---
 
